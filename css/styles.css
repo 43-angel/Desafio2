@@ -1,0 +1,87 @@
+body {
+  background-color: #203c44;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  background: #050505e9;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 700px;
+  opacity: 0.9;
+}
+
+.calculator {
+  padding: 20px;
+  flex: 1;
+}
+
+.calculator h2 {
+  margin-top: 0;
+  color: #fcfcfc;
+}
+
+.calculator label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #c6c3c3;
+}
+
+.calculator input[type="text"],
+.calculator input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.calculator .radio-group {
+  margin: 100px 0;
+}
+
+.calculator .radio-group label {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.calculator button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #06e22e;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.results {
+  background: #700232;
+  color: #fff;
+  padding: 29px;
+  flex: 1;
+}
+
+.results h3 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.results .amount {
+  font-size: 2em;
+  font-weight: bold;
+  color: #06e20d;
+}
+
+.results .total {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
